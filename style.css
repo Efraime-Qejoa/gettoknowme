@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: beige;
+}
+header {
+    font-size: 20px;
+    padding: 20px;
+    background-color: lightcoral;
+    font-family: 'Open Sans Condensed', sans-serif;
+    box-shadow: 0px 5px 5px 0px black;
+}
+.introduction {
+    text-align: center;
+    margin-top: 10%;
+}
+h1 {
+    color: #7c795d; 
+    font-family: 'Trocchi', serif; 
+    font-size: 45px; 
+    font-weight: normal; 
+    line-height: 48px; 
+    margin: 0;
+    transition: ease-in 1.9s;
+    cursor: auto;
+   
+}
+.sub-header, .intro {
+    font-size: 26px; 
+    font-weight: 300; 
+    color: #ffcc66; 
+    margin: 0 0 24px;
+    transition: ease-in 3.0s;
+    cursor: auto;
+}
+
+/* Button */
+
+#contact a {
+    margin-left: 15%;
+}
+
+button {
+    text-align: center;
+    margin-left: 47%;
+    margin-top: 2%;
+    padding: 15px;
+    border-radius: 10%;
+    border-color: #7c795d;
+    box-shadow: 0px 5px 5px 0px lightcoral;
+    color: #ffcc66;
+    font-size: 15px;
+}
+button:hover {
+    color: #7c795d;
+    background-color: lightcoral;
+    background-color: transparent;
+    transition: ease 0.9s;
+    cursor: pointer;
+}
+
+/*  ABOUT   */
+.two {
+    margin-top: 20%;
+    background-color: bisque;
+}
+.about {
+   text-align: center;
+}
+.sub-head {
+    font-size: 20px;
+    font-family: 'Trocchi', serif;
+    color: #7c795d;
+    margin-top: 4%;
+}
+.head {
+    font-size: 30px;
+    color: #7c795d; 
+    font-weight: normal; 
+    font-family: 'Trocchi', serif;
+    text-align: center;
+}
+.para {
+    color: lightcoral;
+    letter-spacing: 2px;
+    margin-top: 5%;
+    transition: ease-in-out 1.5s;
+    cursor: auto;
+}
+/*  Project */
+.quotes {
+    font-size: 30px;
+    color: #7c795d; 
+    font-weight: normal; 
+    font-family: 'Trocchi', serif;
+    text-align: center;
+}
+.three {
+    margin-top: 15%;
+    
+}
+.sub-quotes {
+    color: #7c795d; 
+    font-weight: normal; 
+    font-family: 'Trocchi', serif;
+    text-align: center;
+    margin-top: 3%;
+}
+.faces {
+    display: inline-flex;
+    margin-top: 10%;
+}
+.q-one {
+    margin-left: 5%;
+    padding: 40px 40px;
+    color: black;
+    font-family: 'Raleway',sans-serif;
+    font-size: 19px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px 0px purple;    
+    background: beige;
+}
+.q-two {
+    margin-left: 5%;
+    padding: 40px 40px;
+    color: black;
+    font-family: 'Raleway',sans-serif;
+    font-size: 19px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px 0px purple;    
+    background: beige;
+    
+}
+/*  CONTACT SECTION */
+.contact {
+    margin-top: 30%;
+    font-family: 'Raleway',sans-serif;
+    transition: ease-in 0.9s;
+    cursor: all-scroll;
+    scroll-behavior: smooth;
+}
+/*  Socials */
+.socials img{
+    height: 50px;
+    padding: 10px;
+    margin-left: 50%;
+}
+/*  FOOTER   */
+footer {
+    padding: 20px;
+    background-color: lightcoral;
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+    box-shadow: 5px 0px 5px 5px black;
+}
